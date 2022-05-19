@@ -148,6 +148,13 @@ const ApiScreen = ({navigation}) => {
           onPress={() => navigation.navigate("Api Axios")}
         />
       </View>
+
+      <View style={{ marginTop: 5, padding: 5, marginHorizontal: 16 }} >
+        <Button
+          title='Api XmlHttps'
+          onPress={() => navigation.navigate("Api XmlHttps")}
+        />
+      </View>
     </View>
   );
 };
